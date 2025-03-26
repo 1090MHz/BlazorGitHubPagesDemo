@@ -26,3 +26,12 @@ This repository demonstrates deploying a Blazor WebAssembly application to GitHu
     ```bash
     dotnet run
     ```
+### Troubleshooting
+
+You should select "Read and write permissions" for your workflows. This is necessary because the JamesIves/github-pages-deploy-action requires write access to the repository to push changes to the gh-pages branch.
+
+Steps to Update:
+Go to your repository's Settings > Actions > General.
+Under Workflow permissions, select Read and write permissions.
+Save the changes.
+This will allow the GitHub Actions bot to push to the gh-pages branch and resolve the 403 Permission Denied error.
