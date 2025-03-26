@@ -1,0 +1,28 @@
+# Blazor GitHub Pages Demo
+
+This repository demonstrates deploying a Blazor WebAssembly application to GitHub Pages using GitHub Actions.
+
+## Features
+
+- **Blazor WebAssembly**: A single-page application framework for building interactive web UIs.
+- **GitHub Pages Deployment**: Automated deployment to GitHub Pages using the `JamesIves/github-pages-deploy-action`.
+- **Continuous Integration**: GitHub Actions workflow for building and publishing the project.
+
+## Getting Started
+
+### Prerequisites
+
+- [.NET SDK](https://dotnet.microsoft.com/download) (Version 9.0 or compatible)
+- A GitHub repository with GitHub Pages enabled.
+
+### Running Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/1090MHz/BlazorGitHubPagesDemo.git
+   cd BlazorGitHubPagesDemo
+
+2. Build and run the project:
+    ```bash
+    dotnet run
+    ```
